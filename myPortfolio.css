@@ -1,0 +1,33 @@
+p{
+    font-size: 16;
+}
+
+.nav-link {
+    color: #FFF;
+    background-color: black;
+    opacity:0.8;
+}
+
+.index {
+    background-image: url("Images/pro.jpg") ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    height: 40rem;
+  }
+.about {
+    padding: 2rem 2rem;
+    color: black;
+    background-color: white;
+}
+
+.card {
+    /*background-color: #33363b;*/
+    color: black;
+    opacity: 0.8;
+}
+
+.index-img {
+    opacity: 0.7;
+}
