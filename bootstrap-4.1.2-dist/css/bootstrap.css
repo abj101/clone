@@ -3889,6 +3889,10 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.contact:hover, .contact:focus {
+  text-transform: capitalize;
+}
+
 .nav-link.disabled {
   color: #6c757d;
 }
@@ -3974,6 +3978,7 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  z-index: 10000;
 }
 
 .navbar > .container,
@@ -3986,6 +3991,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  color: white;
 }
 
 .navbar-brand {
@@ -4378,7 +4384,7 @@ input[type="button"].btn-block {
   display: flex;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 10rem;
+  min-width: 12rem;
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
@@ -4886,14 +4892,14 @@ input[type="button"].btn-block {
 .jumbotron {
   color: #FFF;
   text-align: center;
-  padding: 0rem 1rem;
+  padding: 0rem 0rem;
   margin-bottom: 0rem;
   /*border-radius: 0.3rem*/
 }
 
 @media (min-width: 576px) {
   .jumbotron {
-    padding: 0rem 1rem;
+    padding: 0rem 0rem 0rem 0rem;
   }
 }
 

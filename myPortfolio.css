@@ -2,10 +2,20 @@ p{
     font-size: 16;
 }
 
+.t {
+    padding-top: 48vh;
+}
+
 .nav-link {
-    color: #FFF;
-    background-color: black;
-    opacity:0.8;
+    color:white;
+}
+
+.contact {
+      display: flex;
+  align-items: center;
+  justify-content: space-between;
+    color: #85144b;
+    background-color: #FF4136;
 }
 
 .index {
@@ -14,7 +24,9 @@ p{
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
-    height: 40rem;
+    height:100vh;
+    width: 100%;
+    opacity: 1;
   }
 .about {
     padding: 2rem 2rem;
@@ -26,8 +38,4 @@ p{
     /*background-color: #33363b;*/
     color: black;
     opacity: 0.8;
-}
-
-.index-img {
-    opacity: 0.7;
 }
