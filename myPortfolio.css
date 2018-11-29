@@ -14,8 +14,7 @@ p{
       display: flex;
   align-items: center;
   justify-content: space-between;
-    color: #85144b;
-    background-color: #FF4136;
+  color:white;
 }
 
 .index {
