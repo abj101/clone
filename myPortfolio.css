@@ -10,6 +10,10 @@ p{
     color:white;
 }
 
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
 .contact {
   display: flex;
   align-items: center;
@@ -37,4 +41,13 @@ p{
     /*background-color: #33363b;*/
     color: black;
     opacity: 0.8;
+}
+
+.padding {
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.size {
+    height: 100px;
 }

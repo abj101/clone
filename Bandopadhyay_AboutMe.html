@@ -6,30 +6,31 @@
     <link href="bootstrap-4.1.2-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
   </head>
   <body><!--This is about me -->
-    <div class="pos-f-t sticky-top">
+    <div class="pos-f-t sticky-top"><!--This is my navigation bar, this part is the collapse which brings in the Contact Me using a little bit of JS-->
       <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4 contact">
-          <h4> Contact Me</h4>
+        <div class="bg-dark p-4 contact"><!--Sets it to dark and spaces it-->
+          <h4> Contact Me: Dublin, CA</h4>
           <div class="container logo">
             <a href="mailto:ayushbj1@gmail.com"><img class="px-5" src="Images/mail.png" alt="Mail Logo"></a>
             <a href="https://github.com/abj101"><img class="px-5" src="Images/git.png" alt="git Logo"></a>
           </div>
         </div>
       </div>
-      <nav class="sticky-top nav nav-fill navbar navbar-dark bg-dark"> <!--This is the nav bar for all of the parts of my website-->
-        <a class="nav-item nav-link active" href="index.html">Home</a>
-        <a class="nav-item nav-link" href="Bandopadhyay_AboutMe.html">About Me</a>
-        <a class="nav-item nav-link" href="resume.html">Resume</a>
-        <a class="nav-item nav-link" href="projects.html">Projects</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </nav>
-    </div>
+        <nav class="sticky-top nav nav-fill navbar navbar-dark bg-dark"> <!--This is the nav bar for all of the parts of my website-->
+          <a class="nav-item nav-link active" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="Bandopadhyay_AboutMe.html">About Me</a>
+          <a class="nav-item nav-link" href="resume.html">Resume</a>
+          <a class="nav-item nav-link" href="projects.html">Projects</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span><!--This is my button which is toggling the collapse-->
+          </button>
+        </nav>
+      </div>
       <header>
       <div class="jumbotron">
         <div class="container about">
           <h1 class="text-center">About Me</h1><!--The title for the about me-->
+          <img class="img-fluid rounded-circle float-center img-thumbnail" src="Images/ME.png" alt="Red Cross Logo">
         </div>
       </div>
       </header>
@@ -42,17 +43,45 @@
         </div>
         <div class="row">
           <section>
-            <img class="rounded float-left pr-5" src="Images/ME.png" alt="Red Cross Logo"><!--all the text for the About Me-->
-            <p>Hello! My name is Ayush Bandopadhyay, a student, and aspiring inventor at Dublin High School. Find out more about me here. As a student, I currently want to become an engineer or designer after college. My goals are to pass high school with an Advanced Scholar Diploma, and to attend one of the Ivy League Universities here in California. I plan on achieving my goal by studying hard for assessments of my skill, and by continuing to aspire I will get closer and closer to my career in college and beyond. This is my career choice for many reasons. As a child I have seen my father go through many jobs, each one a software engineer at different companies like PayPal and Apple. After days sitting next to him working on his laptop, I was inspired to follow in his footsteps.</br>
-
-	</br> I have many skills that I have acquired over time. I am able to display my creative abilities in art, design and engineering.(ex:img(legos, vex, sculpture). Along with that I am able to learn new concepts and skills on my own and apply them. (Website). Finally, I am very good at continuing with my work. No matter what obstacles I come across I deliver, in a group I am a team player and work well in taking the lead and getting work done. At school in the short time that I have attended I have achieved some things, such as maintaining honor roll, getting into Advanced English, and also taking Algebra 2 with Trig as Freshman.</br>
-
-	</br> In the workspace there is no block to my creativity and performance. If there is a job that needs to be done, I will get it done on time. Over the years of working with different types of groups and partners I have learned to cope with people and make the experience productive.
-</p>
+            <!--all the text for the About Me-->
+            <div>
+              <p>Hello! My name is Ayush Bandopadhyay, a student at Dublin High School. Find out more about me here. As a student,
+              I currently want to become an engineer or designer after college. My goals are to pass high school with an Advanced
+              Scholar Diploma and to attend one of the Ivy League Universities here in California. I plan on achieving my goal by
+              studying hard for assessments of my skill, and by continuing to aspire I will get closer and closer to my career in
+              college and beyond. This is my career choice for many reasons. As a child, I have seen my father go through many jobs, 
+              each one a software engineer at different companies like PayPal and Apple. After days sitting next to him working on 
+              his laptop, I was inspired to follow in his footsteps.</p>
+              <p>I have many skills that I have acquired over time. I am able to display my creative abilities in art, design, and 
+              engineering. Along with that, I am able to learn new concepts and skills on my own and apply them, just like this website, 
+              displaying my abilities in HTML and CSS. Finally, I am very good at continuing with my work. No matter what obstacles I 
+              come across I deliver, in a group, I am a team player and work well in taking the lead and getting work done. At school 
+              in the short time that I have attended, I have achieved some things, such as maintaining honor roll, getting into Advanced 
+              English, and also taking Algebra 2 with Trigonometry as a freshman.</p>
+              <p>In the workspace, there is no block to my creativity and performance. If there is a job that needs to be done, I will get
+              it done on time. Over the years of working with different types of groups and partners, I have learned to cope with people and
+              make the experience productive. Some of my achievements include Honor Roll for all of my Education, taking higher level math
+              classes, getting on the Pleasanton Seahawks Swim Team, and receiving Gifted and Talented Education status.</p>
+            </div>
+            <div class="row"><!--Images at the bottom-->
+              <div class="col-sm-3 img-fluid rounded" >
+                <img src="Images/red_cross.1.jpg" alt="Start" >
+              </div>
+              <div class="col-sm-3 img-fluid rounded">
+                <img src="Images/soldier.png" alt="Character Page">
+              </div>
+              <div class="col-sm-3 img-fluid rounded">
+                <img src="Images/Lego.png" alt="Level 1">
+              </div>
+              <div class="col-sm-3 img-fluid rounded">
+                <img src="Images/DHS.png" alt="Finish">
+            </div>
+            </div>
           </section>
         </div>   
       </div>
   </body>
+  <!--Linking to JS for nav-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
