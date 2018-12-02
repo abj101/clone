@@ -1,9 +1,43 @@
 p{
     font-size: 16;
 }
+.full{
+    width:100%;
+}
+.fix {
+    text-align: center;
+    position: fixed;
+}
+@keyframes back {
+    0% {background-color: #001f3f; color: white;}
+    6.25% {background-color: #0074D9; color: white;}
+    12.5% {background-color: #7FDBFF; color: #001f3f;}
+    18.75% {background-color: #39CCCC; color: white;}
+    25% {background-color: #3D9970; color: white;}
+    31.25% {background-color: #2ECC40; color: white;}
+    37.5% {background-color: #01FF70; color: #3D9970;}
+    43.75% {background-color: #FFDC00; color: white;}
+    50% {background-color: #FF851B; color: white;}
+    56.25% {background-color: #FF4136; color: white;}
+    62.5% {background-color: #85144b; color: white}
+    68.75% {background-color: #F012BE; color:white;}
+    75% {background-color: #B10DC9; color: white;}
+    81.25% {background-color: #111111; color: white;}
+    87.5% {background-color: #FFF; color: #111111;}
+    93.75% {background-color: #6ed3cf; color: white;}
+    100% {background-color: #3a4660; color: #c9af98;}
+}
+
+.white {
+    background-color: white;
+    opacity: 1;
+    z-index: 1;
+}
 
 .t {
-    padding-top: 48vh;
+    z-index: 100;
+    padding-top: 42vh;
+    padding-left:35%;
 }
 
 .nav-link {
@@ -11,7 +45,7 @@ p{
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family:  -apple-system, sans-serif;
 }
 
 .contact {
@@ -22,14 +56,12 @@ body {
 }
 
 .index {
-    background-image: url("Images/pro.jpg") ;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: black;
-    height:100vh;
-    width: 100%;
-    opacity: 1;
+    background-attachment: fixed;
+    height: 100vh;
+    width:100%;
+    animation-name: back;
+    animation-duration: 80s;
+    animation-iteration-count: infinite;
   }
 .about {
     padding: 2rem 2rem;
@@ -38,16 +70,10 @@ body {
 }
 
 .card {
-    /*background-color: #33363b;*/
     color: black;
-    opacity: 0.8;
 }
 
 .padding {
     padding-bottom: 5px;
     padding-right: 5px;
-}
-
-.size {
-    height: 100px;
 }
