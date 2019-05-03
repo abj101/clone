@@ -2,44 +2,10 @@ p{
     font-size: 16;
 }
 
-@media (max-width:790px) {
-    .contact-t {
-        font-size: 15px;
-    }
-}
-@media (max-width:790px) {
-    .logo-t {
-        height: 20px;
-    }
-}
-
-@media (max-width:450px) {
-    .norm {
-        display: none;
-    }
-}
-@media (max-width:450px) {
-    .navbar-toggler {
-        margin-left: 86.5%;
-    }
-}
-
-
-.phone {
-    display:none;
-}
-
-@media (max-width: 451px) {
-    .phone {
-       display: block;
-       font-size: 14px;
-    }
-}
-
-
 .full{
     width:100%;
 }
+
 .fix {
     text-align: center;
     position: fixed;
@@ -50,6 +16,7 @@ p{
     margin-top: -100px;
     margin-left: -200px;
 }
+
 @keyframes back {
     0% {background-color: #001f3f; color: white;}
     10% {background-color: #0074D9; color: white;}
@@ -94,9 +61,10 @@ body {
     height: 100vh;
     width:100%;
     animation-name: back;
-    animation-duration: 120s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;
   }
+  
 .about {
     padding: 2rem 2rem;
     color: black;
